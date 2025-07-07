@@ -110,9 +110,9 @@
           title: 'Registro de novo Afazer',
           body: getById('input-for-new-todo').value,
           userId: getById('input-user-id').value,
-          completed: getById('input-for-new-todo-status').value !== ''
-          ? true
-          : false
+          completed: getById('input-for-new-todo-status').value === '0'
+          ? false
+          : true
         }),
         headers: {
           'Content-type': 'application/json; charset=UTF-8'
