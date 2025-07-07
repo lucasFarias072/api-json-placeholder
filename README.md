@@ -1,0 +1,2 @@
+# api-json-placeholder
+API consuming Json Placeholder API for educational purposes due to an activity for the subject of Web Programming part 1
